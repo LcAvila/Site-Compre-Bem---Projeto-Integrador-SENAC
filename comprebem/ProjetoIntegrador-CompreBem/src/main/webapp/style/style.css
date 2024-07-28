@@ -1,0 +1,473 @@
+@charset "ISO-8859-1";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    text-decoration: none;
+    list-style: none;
+
+}
+
+/*-------------------------------------------------------------------------------*/
+
+body {
+    background-color: #e5e7eb;
+  
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/* Adicionando estilos para a barra de navegação */
+
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand img {
+    max-width: 100%;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: bold;
+}
+
+.input-group {
+    width: 35vw;
+    border-radius: 15px;
+}
+
+
+.input-group .form-control {
+    border-radius: 15px;
+}
+
+.navbar-nav {
+    justify-content: space-around;
+    margin-left: 4%;
+    width: 40vw;
+    margin-right: 20%;
+    text-decoration: none;
+    
+
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #333;  
+}
+
+.nav-item a:hover {
+    color: #999797;
+}
+
+#navbarDropdown{
+    text-decoration: none;
+    color: #333;
+   
+}
+
+#navbarDropdown:hover {
+    color: #999797;
+}
+
+.nav-item button {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-item button:hover {
+    color: #333;
+}
+
+.fa-bag-shopping {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #333;
+}
+.fa-bag-shopping:hover {
+    color: #999797;
+}
+
+
+.keep-products {
+    display: flex;
+}
+
+#auth {
+    border: none;
+    font-size: 1.2em;
+
+}
+
+#auth a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+
+
+
+
+
+/* Estilos adicionados para centralizar a logo em dispositivos móveis e tablets */
+@media (max-width: 1000px) {
+    .navbar-brand {
+        
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* Centraliza a logo em dispositivos móveis */
+@media (max-width: 768px) {
+    .navbar-brand {
+        text-align: center;
+        align-items: center;
+        width: 50%;
+        margin-bottom: 10px;
+    }
+}
+
+.input-group {
+    width: 30vw;
+    border-radius: 15px;
+    border-right: none;
+    padding: 50px;
+   
+}
+
+
+.input-group-text {
+    background-color: #fff;
+    
+}
+/*Config da NAVBAR*/
+
+/*-------------------------------------------------------------------------------*/
+.container_main {
+    padding: 50px;
+}
+
+.main_principal {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.container_main h5 {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+
+.container_main p {
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+}
+
+.container_main h6 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+
+.card {
+    max-width: 100%;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+
+
+
+}
+
+.center-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_main button {
+    font-size: 14px;
+    cursor: pointer;
+    bottom: 0;
+    background-color: #000; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+/*-------------------------------------------------------------------------------*/
+
+/* config do MAIN */
+.Marcas {
+    margin-top: 10rem;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+
+.Marcas img {
+    width: 180px;
+    height: auto;
+    background-color: aliceblue;
+}
+
+/* Termino da config do MARCAS */
+
+
+/*-------------------------------------------------------------------------------*/
+
+
+/* config do BANNER */
+
+.banner img {
+    width: 100%;
+    margin: 60px 0px 20px 0px;
+}
+
+/* Config do BANNER */
+
+/*-------------------------------------------------------------------------------*/
+/* Config do Mapa */
+
+.map-responsive{
+    justify-content: center;
+    text-align: center;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+
+/* Config do Rodapé */
+
+footer {
+    background-color: #ddd9ce;
+    color: #000;
+    padding: 20px;
+ 
+}
+
+footer img{
+    max-width: 18%;
+}
+
+.container {
+    width: 100%;
+}
+
+#footer-content {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#footer-content .titulo-footer {
+    width: 100%;
+    text-align: center;
+}
+
+.wrapper ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.wrapper .icon {
+    position: relative;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(118, 199, 242, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.whatsapp {
+    --color: #25D366;
+}
+
+.facebook {
+    --color: #1877f2;
+}
+
+.instagram {
+    --color: #e4405f;
+}
+
+.twitter {
+    --color: #000;
+}
+
+
+.icon:hover,
+.icon:hover .tooltip,
+.icon:hover .tooltip::before {
+    background: var(--color);
+    color: white;
+}
+
+.links_rodape ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links_rodape li {
+    margin: 10px 0;
+}
+
+.links_rodape a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links_rodape a:hover {
+    border-bottom: solid 2px #ffffff;
+    color: #000;
+}
+
+form p {
+    font-size: small;
+    margin-top: 5px;
+}
+
+.input-wrapper {
+    margin: 15px 0;
+    padding: 8px 2px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.input-wrapper i {
+    color: #000;
+    cursor: pointer;
+}
+
+.input-wrapper input {
+    background-color: transparent;
+    border: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.input-wrapper input:focus-visible {
+    outline: none;
+}
+
+.input-button button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 2px #000;
+}
+
+
+
+.red-line {
+    border: 1px solid gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.desenvolvido-por {
+    background-color: #ddd9ce;
+    text-align: center;
+    justify-content: center;
+    color: black;
+
+}
+
+
+
+@media screen and (max-height: 450px) {
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/* Termino da config do Rodapé */
+
+/*-------------------------------------------------------------------------------*/

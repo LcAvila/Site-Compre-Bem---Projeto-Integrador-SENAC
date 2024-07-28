@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background: #c2c0c5 ;
+    background: -webkit-linear-gradient(to right, #c2c0c5, #fff);
+    background: linear-gradient(to right, #c2c0c5, #fff) ;
+    font-family: 'Open Sans';
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-top: 40px;
+}
+
+form input{
+
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+
+}
